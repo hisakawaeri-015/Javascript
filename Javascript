@@ -1,0 +1,50 @@
+data.js
+<body>
+  <script src="js/data.js"></script>
+</body>
+
+//四則演算
+console.log(45 + 18);
+console.log(30 - 12);
+console.log(15 * 6);
+console.log(30 / 3);
+console.log(45 % 8);
+
+console.log('45' + '18');
+console.log('今日の天気は' + '晴れ')
+console.log('今日の天気は' + '曇り');
+
+
+variable.js
+<body>
+  <script src="js/variable.js"></script>
+</body>
+
+//変数の宣言
+let userName;
+
+//値の代入
+userName = '久川絵梨'
+
+//変数の宣言・値の代入
+let userNumber = 55;
+
+//コンソールへの出力
+console.log(userName);
+console.log(userNumber);
+
+//値の再代入
+userName = '侍';
+userNumber = '88';
+
+console.log(userName);
+console.log(userNumber);
+
+
+constant.js
+
+//定数の宣言・値の代入
+const shippingFree = 500;
+
+//コンソールへの出力
+console.log(shippingFree);
