@@ -1,0 +1,33 @@
+★クォーテーションの不一致
+Uncaught SyntaxError: Unexpected string
+ (at error_demo.js:1:22)
+→error_demo.jsファイルの1行目、22番目の文字に注目すればOK
+
+★括弧の不一致
+Uncaught SyntaxError: missing ) after argument list
+(at error_demo.js:4:43)
+→「missing )」は、「)が見つかりません」といった意味のエラーです。
+このように、missingの後に( )や{ }、[ ]といった括弧が続く場合、括弧の不一致を疑いましょう。
+
+★余計な記号の混在
+Uncaught SyntaxError: Unexpected token '-'
+(at error_demo.js:1:6)
+→「Unexpected token '記号'」というエラーが表示される場合、余計な記号の混在を疑いましょう。
+
+★変数/関数/メソッドの未定義
+Uncaught ReferenceError: userName is not defined
+at error_demo.js:1:13
+→「〇〇 is not defined」は、「〇〇が未定義です」といった意味のエラーです。
+この場合、部品を定義せずに参照しようとして、参照エラーになっている疑いがあります。
+この場合は、〇〇の部分にある名前をコードでチェックしましょう。
+
+★型エラー
+Uncaught TypeError: Assignment to constant variable.
+at error_demo.js:2:10
+→「Assignment to constant variable」は、「定数への割り当て」といった意味の型エラーです。
+これは、定義済みの定数に値を再代入しようとすることで発生します。
+
+★関数でないものを呼び出している
+Uncaught TypeError: console.Log is not a function
+at error_demo.js:1:9
+→「〇〇 is not a function」は、「〇〇は関数ではありません」といった意味のエラーです。
