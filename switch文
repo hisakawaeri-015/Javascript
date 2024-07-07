@@ -20,7 +20,25 @@ switch (式) {
   case 値3:
     式が値3のときの処理
     break;
+  default:
+    式がいずれのcaseにも当てはまらないときの処理
+    break;
 }
 -------------------------------
+num = Math.floor(Math.random() * 5);
+
+console.log(num)
+
+switch (num) {
+  case 2:
+    console.log('小吉')
+    break;
+  case 3:
+    console.log('中吉')
+    break;
+  case 4:
+    console.log('大吉')
+    break;
+}
 
 
