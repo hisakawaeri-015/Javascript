@@ -1,0 +1,12 @@
+// 朝のあいさつを出力する関数を作成する
+const sayGoodMorning = () => {
+  console.log('おはようございます！');
+  console.log('昨日はよく眠れましたか？');
+  console.log('今日も一日頑張りましょう！');
+}
+
+// 関数を呼び出す（1回目）
+sayGoodMorning();
+
+// 関数を呼び出す（2回目）
+sayGoodMorning();
