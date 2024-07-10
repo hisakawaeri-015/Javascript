@@ -67,5 +67,12 @@ if (isPurchased()) {
   console.log('商品は購入済みです。');
 }
 ------------------------------------------------
+引数で渡した値を二乗した計算結果を戻り値として返す関数を記述してください。
+
+function square(n) {
+  return n * n;
+}
+
+console.log(square(10));
 
 
