@@ -15,6 +15,12 @@ setTimeout関数
  
  </html>
 
+setTimeout(() => {
+  処理
+}, 待ち時間);
+
+
+
  // 同期処理を実行する
  console.log('処理1');
  console.log('処理2');
