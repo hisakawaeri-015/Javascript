@@ -1,10 +1,10 @@
-data.js
+bodyの最後に書くのが一般的
 <body>
   <script src="js/data.js"></script>
 </body>
-
+-----------------------------------
 //四則演算
-console.log(45 + 18);
+console.log(45 + 18);　
 console.log(30 - 12);
 console.log(15 * 6);
 console.log(30 / 3);
@@ -14,18 +14,19 @@ console.log('45' + '18');
 console.log('今日の天気は' + '晴れ')
 console.log('今日の天気は' + '曇り');
 
-
+--------------------------------------
+★変数★
 variable.js
 <body>
   <script src="js/variable.js"></script>
 </body>
-
+--------------------------------------
 //変数の宣言
 let userName;
 
 //値の代入
 userName = '久川絵梨'
-
+---------------------------------------
 //変数の宣言・値の代入
 let userNumber = 55;
 
@@ -35,12 +36,12 @@ console.log(userNumber);
 
 //値の再代入
 userName = '侍';
-userNumber = '88';
+userNumber = 88;
 
 console.log(userName);
 console.log(userNumber);
-
-
+----------------------------------------
+★定数★
 constant.js
 
 //定数の宣言・値の代入
